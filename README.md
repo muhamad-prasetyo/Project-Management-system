@@ -26,7 +26,7 @@ A Laravel Filament 3 application for managing projects with ticket management an
 
 1. Clone the repository:
    ```
-  
+  https://github.com/muhamad-prasetyo/Project-Management-system.git
 
 2. Install dependencies:
    ```
@@ -45,7 +45,7 @@ A Laravel Filament 3 application for managing projects with ticket management an
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=dewakoding_project_management
+   DB_DATABASE=dproject_management
    DB_USERNAME=root
    DB_PASSWORD=
    ```
