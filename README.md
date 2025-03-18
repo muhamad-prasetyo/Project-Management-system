@@ -1,4 +1,4 @@
-# DewaKoding Project Management
+# FriendFamilyIndonesia Project Management
 
 ![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/image-1.jpeg)
 ![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/image-4.jpeg)
@@ -26,9 +26,7 @@ A Laravel Filament 3 application for managing projects with ticket management an
 
 1. Clone the repository:
    ```
-   git clone https://github.com/SeptiawanAjiP/dewakoding-project-management
-   cd dewakoding-project-management
-   ```
+  https://github.com/muhamad-prasetyo/Project-Management-system.git
 
 2. Install dependencies:
    ```
@@ -47,7 +45,7 @@ A Laravel Filament 3 application for managing projects with ticket management an
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=dewakoding_project_management
+   DB_DATABASE=dproject_management
    DB_USERNAME=root
    DB_PASSWORD=
    ```
@@ -99,4 +97,3 @@ A Laravel Filament 3 application for managing projects with ticket management an
 
 ## License
 
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
