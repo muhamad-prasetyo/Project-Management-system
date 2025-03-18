@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ config('app.name', 'Dewakoding Project Management') }}</title>
+        <title>{{ config('app.name', 'Friend Family Indonésia') }}</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -24,10 +24,10 @@
         </script>
         <style type="text/tailwindcss">
             .gradient-background {
-                @apply bg-gradient-to-r from-blue-500 to-blue-600;
+                @apply bg-gradient-to-r from-yellow-500 to-blue-600;
             }
             .text-gradient {
-                @apply bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent;
+                @apply bg-gradient-to-r from-blue-500 to-yellow-600 bg-clip-text text-transparent;
             }
         </style>
     </head>
@@ -35,10 +35,10 @@
         <div class="min-h-screen flex flex-col items-center">
             <header class="w-full py-6 px-6 sm:px-10 flex justify-between items-center">
                 <div class="flex items-center space-x-2">
-                    <svg class="w-8 h-8 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg class="w-8 h-8 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 8H19M5 8C3.89543 8 3 7.10457 3 6C3 4.89543 3.89543 4 5 4H19C20.1046 4 21 4.89543 21 6C21 7.10457 20.1046 8 19 8M5 8V18C5 19.1046 5.89543 20 7 20H17C18.1046 20 19 19.1046 19 18V8M10 12H14"></path>
                     </svg>
-                    <span class="text-xl font-semibold">DewaKoding</span>
+                    <span class="text-xl font-semibold">Friend Family Indonesia</span>
                 </div>
                 
                 @if (Route::has('login'))
@@ -60,7 +60,7 @@
                 <div class="max-w-4xl w-full">
                     <div class="text-center mb-12">
                         <h1 class="text-4xl md:text-5xl font-bold mb-4">Project Management <span class="text-gradient">Simplified</span></h1>
-                        <p class="text-xl text-gray-600 max-w-4xl mx-auto">Streamline your workflow with our intuitive and collaborative project management tool, designed for teams of all sizes.</p>
+                        <p class="text-xl text-gray-600 max-w-4xl mx-auto">Sederhanakan alur kerja Anda dengan alat manajemen proyek kami yang intuitif dan kolaboratif, yang dirancang untuk tim dengan segala ukuran.</p>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
@@ -71,7 +71,7 @@
                                 </svg>
                                 <h2 class="text-lg font-semibold">Task Management</h2>
                             </div>
-                            <p class="text-gray-600">Create, assign, and track tasks with ease. Set priorities and deadlines to keep your team on track.</p>
+                            <p class="text-gray-600">Buat, tetapkan, dan lacak tugas dengan mudah. ​​Tetapkan prioritas dan tenggat waktu agar tim Anda tetap pada jalurnya.</p>
                         </div>
 
                         <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
@@ -81,7 +81,7 @@
                                 </svg>
                                 <h2 class="text-lg font-semibold">Team Collaboration</h2>
                             </div>
-                            <p class="text-gray-600">Foster teamwork with real-time updates. Keep everyone in the loop.</p>
+                            <p class="text-gray-600">Dorong kerja sama tim dengan pembaruan terkini. Pastikan semua orang mengetahui perkembangannya.</p>
                         </div>
 
                         <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
@@ -91,23 +91,23 @@
                                 </svg>
                                 <h2 class="text-lg font-semibold">Progress Tracking</h2>
                             </div>
-                            <p class="text-gray-600">Visualize project progress with intuitive boards and reports. Identify bottlenecks and optimize workflows.</p>
+                            <p class="text-gray-600">Visualisasikan kemajuan proyek dengan papan dan laporan yang intuitif. Identifikasi hambatan dan optimalkan alur kerja.</p>
                         </div>
                     </div>
 
                     <div class="flex flex-col items-center">
                         <a href="/admin" class="gradient-background text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
-                            Access Admin Panel
+                            Masuk Admin Panel
                         </a>
-                        <p class="mt-4 text-sm text-gray-500">Manage your projects and team from our powerful administration dashboard</p>
+                        <p class="mt-4 text-sm text-gray-500">Kelola proyek dan tim Anda dari dasbor administrasi kami yang canggih</p>
                     </div>
                 </div>
             </main>
 
             <footer class="w-full py-8 px-6 sm:px-10">
                 <div class="max-w-4xl mx-auto text-center">
-                    <p class="text-gray-600">© {{ date('Y') }} DewaKoding. All rights reserved.</p>
-                    <p class="text-sm text-gray-500 mt-2">Built with Laravel and Filament</p>
+                    <p class="text-gray-600">© {{ date('Y') }} FriendFamilyIndonesia. All rights reserved.</p>
+                    <p class="text-sm text-gray-500 mt-2">Management System Proggress</p>
                 </div>
             </footer>
         </div>

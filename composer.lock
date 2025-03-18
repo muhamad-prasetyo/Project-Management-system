@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e53f7358748cd493613087930949d615",
+    "content-hash": "9a501bc2c2a6b284d22df6b8cafe5aa5",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -7351,6 +7351,69 @@
                 }
             ],
             "time": "2025-01-17T11:39:41+00:00"
+        },
+        {
+            "name": "tangodev-it/filament-emoji-picker",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TangoDev-it/filament-emoji-picker.git",
+                "reference": "82fa98c0404e3931b6d7d61ec6eb15f7ba27e0bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TangoDev-it/filament-emoji-picker/zipball/82fa98c0404e3931b6d7d61ec6eb15f7ba27e0bb",
+                "reference": "82fa98c0404e3931b6d7d61ec6eb15f7ba27e0bb",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^3.0",
+                "php": "^8.1",
+                "spatie/laravel-package-tools": "^1.15.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^7.9",
+                "orchestra/testbench": "^8.0",
+                "pestphp/pest": "^2.1",
+                "pestphp/pest-plugin-arch": "^2.0",
+                "pestphp/pest-plugin-laravel": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TangoDevIt\\FilamentEmojiPicker\\FilamentEmojiPickerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TangoDevIt\\FilamentEmojiPicker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TangoDev",
+                    "email": "info@tangodev.it",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add an emoji picker to your Filament input fields",
+            "homepage": "https://github.com/tangodev-it/filament-emoji-picker",
+            "keywords": [
+                "TangoDev-it",
+                "filament-emoji-picker",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/tangodev-it/filament-emoji-picker/issues",
+                "source": "https://github.com/tangodev-it/filament-emoji-picker"
+            },
+            "time": "2024-08-19T18:04:09+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
